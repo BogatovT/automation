@@ -1399,7 +1399,7 @@ msgstr ""
 #: code:addons/automation_oca/models/automation_configuration_step.py:0
 #, python-format
 msgid "To use a %(name)s trigger type we need a parent of type %(parents)s"
-msgstr ""
+msgstr "Para usar un tipo de disparo %(name)s se necesita un padre de tipo %(parents)s"
 "Para usar un tipo de disparador %(name)s necesitamos un padre de tipo "
 "%(parents)s"
 
@@ -1520,3 +1520,100 @@ msgstr "inicio de flujo de trabajo"
 
 #~ msgid "Weeks"
 #~ msgstr "Semanas"
+
+#. module: automation_oca
+msgid "<i class=\"fa fa-calendar pe-1\" role=\"img\" aria-label=\"At\" title=\"At\"/>"
+msgstr "<i class=\"fa fa-calendar pe-1\" role=\"img\" aria-label=\"El\" title=\"El\"/>"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_verification_domain_error
+msgid "Activity Verification Domain"
+msgstr "Dominio de verificación de la actividad"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Activity Verification Domain Error"
+msgstr "Error del dominio de verificación de la actividad"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__automation_direct_step_ids
+msgid "Automation Configuration Export"
+msgstr "Exportación de la configuración de automatización"
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_automation_configuration_export
+msgid "Export"
+msgstr "Exportar"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__field_id
+msgid "Export Automation Configuration"
+msgstr "Exportar configuración de automatización"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__file_content
+msgid "Field Label"
+msgstr "Etiqueta del campo"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__file_name
+msgid "File Content"
+msgstr "Contenido del archivo"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__filter_id
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.automation_filter_act_window
+#: model:ir.ui.menu,name:automation_oca.automation_filter_menu
+msgid "Filter to verify when the activity is done"
+msgstr "Filtro para verificar cuándo la actividad está hecha"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Force on Record Date"
+msgstr "Forzar en la fecha del registro"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__message_ids
+msgid "Message to show when the activity domain is not as expected"
+msgstr "Mensaje a mostrar cuando el dominio de la actividad no es el esperado"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__model_id
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__model_id
+#: model:ir.model.fields,help:automation_oca.field_automation_filter__model_id
+msgid "Model ID"
+msgstr "Modelo"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Offset"
+msgstr "Desfase"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_search_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_tree_view
+msgid "Retry"
+msgstr "Reintentar"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_date_kind
+msgid "Trigger Date Field"
+msgstr "Campo de fecha de disparo"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_interval
+msgid "Trigger Date Kind"
+msgstr "Tipo de fecha de disparo"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__activity_user_type
+msgid "Upload"
+msgstr "Cargar"
+
